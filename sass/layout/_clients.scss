@@ -1,0 +1,40 @@
+.client-list {
+    --basic-item: 6;
+}
+
+.client-list__link {
+    display: flex;
+    padding: 16px;
+    height: 92px;
+
+    align-self: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid $inner-border-clients;
+
+    transition: border $timing-function;
+
+&:hover {
+        border: 1px solid $logo-blue;
+    }
+
+&:focus {
+        border: 1px solid $logo-blue;
+    }
+
+.client-list__icon {
+    width: 106px;
+    height: 60px;
+    fill: $icons-colour;
+    transition: fill $timing-function;
+}
+
+&:hover .client-list__icon {
+    fill: $logo-blue;
+}
+
+&:focus .client-list__icon {
+    fill: $logo-blue;
+}
+}
+
