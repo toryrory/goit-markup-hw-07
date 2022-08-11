@@ -1,11 +1,11 @@
-.feature-list {
+.feature__list {
     --basic-item: 4;
 
-.feature-list__text {
+.feature__text {
     color: $text-grey;
 }
 
-.feature-list__thumb {
+.feature__thumb {
     display: flex;
     margin-bottom: var(--basic-item-margin);
 
@@ -16,7 +16,7 @@
     justify-content: center;
 }
 
-.feature-list__icon {
+.feature__icon {
     width: 70px;
     height: 70px;
     fill: currentColor;

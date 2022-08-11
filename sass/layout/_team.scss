@@ -1,4 +1,4 @@
-.team-section {
+.team {
     background-color: $background-grey;
 
 .team__item {
@@ -9,12 +9,12 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-content {
+.team__content {
     padding-top: var(--basic-item-margin);
     padding-bottom: var(--basic-item-margin);
 }
 
-.team-content__title {
+.team__title {
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -24,7 +24,7 @@
     text-align: center;
 }
 
-.team-content__text {
+.team__text {
     margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.18;
